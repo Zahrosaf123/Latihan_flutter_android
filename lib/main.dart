@@ -144,8 +144,12 @@ class _PlatformChannelPageState extends State<PlatformChannelPage> {
 
                     SwitchListTile(
                       contentPadding: EdgeInsets.zero,
-                      title: const Text('Toast durasi lama'),
-                      subtitle: Text(_isLong ? 'LENGTH_LONG' : 'LENGTH_SHORT'),
+                      title: const Text('Durasi Toast'),
+                      subtitle: Text(
+                        _isLong
+                            ? 'Lama (LENGTH_LONG)'
+                            : 'Singkat (LENGTH_SHORT)',
+                      ),
                       value: _isLong,
                       onChanged: (value) {
                         setState(() {

@@ -11,7 +11,7 @@ Aplikasi ini memakai **MethodChannel** untuk menghubungkan Flutter (Dart) dengan
 
 - Nama: Zahro Safitri
 - NIM: 2411500063
-- Kelas: TI5J
+- Kelas: TA5J
 
 ## Fitur
 
